@@ -36,6 +36,8 @@
     "deptLabel": "immi.homeaffairs.gov.au",
     "maraRegisterUrl": "https://portal.mara.gov.au/search-the-register-of-migration-agents/",
     "maraRegisterLabel": "MARA Register of Migration Agents",
+    "maraAgentUrl": "https://portal.mara.gov.au/search-the-register-of-migration-agents/register-of-migration-agent-details/?ContactID=2441f2f6-b02b-ee11-9966-6045bd3df43a",
+    "maraAgentLabel": "View our registration on the MARA register",
     "consumerGuideUrl": "https://www.mara.gov.au/using-a-migration-agent-subsite/Files/consumer-guide_english.pdf",
     "codeOfConductUrl": "https://www.mara.gov.au/tools-for-registered-agents/code-of-conduct"
   },
@@ -48,20 +50,41 @@
   },
   "navigation": {
     "links": [
-      { "label": "Home", "href": "/" },
-      { "label": "Visa Services", "href": "/services" },
-      { "label": "About", "href": "/about" },
-      { "label": "Contact", "href": "/contact" }
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Visa Services",
+        "href": "/services"
+      },
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
     ],
-    "cta": { "label": "Free assessment", "href": "/free-assessment" }
+    "cta": {
+      "label": "Free assessment",
+      "href": "/free-assessment"
+    }
   },
   "home": {
     "hero": {
       "eyebrow": "Registered migration agent",
       "title": "Your Australian visa, in expert hands.",
       "subtitle": "iVisaPortal provides professional, regulated immigration assistance for Australian visas — from skilled and partner visas to student, work and visitor visas. Honest advice, careful preparation, and representation by a registered migration agent.",
-      "primaryCta": { "label": "Get a free assessment", "href": "/free-assessment" },
-      "secondaryCta": { "label": "Explore visa services", "href": "/services" },
+      "primaryCta": {
+        "label": "Get a free assessment",
+        "href": "/free-assessment"
+      },
+      "secondaryCta": {
+        "label": "Explore visa services",
+        "href": "/services"
+      },
       "bullets": [
         "Regulated by Australian law",
         "Transparent professional fees",
@@ -71,9 +94,18 @@
         "title": "Registered Migration Agent",
         "status": "MARA regulated",
         "lines": [
-          { "label": "Agent", "value": "Chanpreet Singh" },
-          { "label": "MARN", "value": "2318249" },
-          { "label": "Status", "value": "Registered with OMARA" }
+          {
+            "label": "Agent",
+            "value": "Chanpreet Singh"
+          },
+          {
+            "label": "MARN",
+            "value": "2318249"
+          },
+          {
+            "label": "Status",
+            "value": "Registered with OMARA"
+          }
         ],
         "footnote": "Regulated by OMARA, part of the Australian Department of Home Affairs. Verify on the public MARA register."
       }
@@ -94,43 +126,76 @@
         "id": "skilled",
         "name": "Skilled & Points-Tested Visas",
         "summary": "Skilled Independent (189), Skilled Nominated (190) and Skilled Work Regional (491). We assess your points, occupation and pathway, and manage your EOI and SkillSelect.",
-        "examples": ["Subclass 189", "Subclass 190", "Subclass 491", "Skills assessment guidance"]
+        "examples": [
+          "Subclass 189",
+          "Subclass 190",
+          "Subclass 491",
+          "Skills assessment guidance"
+        ]
       },
       {
         "id": "partner-family",
         "name": "Partner & Family Visas",
         "summary": "Partner (820/801, 309/100), Prospective Marriage (300), Parent and Child visas. We help you evidence a genuine relationship and meet sponsorship requirements.",
-        "examples": ["Partner 820/801", "Partner 309/100", "Prospective Marriage 300", "Parent & Child visas"]
+        "examples": [
+          "Partner 820/801",
+          "Partner 309/100",
+          "Prospective Marriage 300",
+          "Parent & Child visas"
+        ]
       },
       {
         "id": "student",
         "name": "Student & Graduate Visas",
         "summary": "Student (500) and Temporary Graduate (485) visas, including Genuine Student requirements, course and provider guidance, and post-study work pathways.",
-        "examples": ["Subclass 500", "Subclass 485", "Genuine Student guidance"]
+        "examples": [
+          "Subclass 500",
+          "Subclass 485",
+          "Genuine Student guidance"
+        ]
       },
       {
         "id": "work",
         "name": "Employer-Sponsored & Work Visas",
         "summary": "Skills in Demand / TSS (482), Employer Nomination (186) and regional employer pathways. We assist both employers and applicants with nomination and sponsorship.",
-        "examples": ["Subclass 482", "Subclass 186", "Subclass 494", "Sponsorship & nomination"]
+        "examples": [
+          "Subclass 482",
+          "Subclass 186",
+          "Subclass 494",
+          "Sponsorship & nomination"
+        ]
       },
       {
         "id": "visitor",
         "name": "Visitor & Tourist Visas",
         "summary": "Visitor (600), eVisitor (651) and Electronic Travel Authority (601) guidance, including business visitor streams and visas for visiting family in Australia.",
-        "examples": ["Subclass 600", "eVisitor 651", "ETA 601", "Business visitor stream"]
+        "examples": [
+          "Subclass 600",
+          "eVisitor 651",
+          "ETA 601",
+          "Business visitor stream"
+        ]
       },
       {
         "id": "appeals",
         "name": "Refusals, Cancellations & Appeals",
         "summary": "Had a visa refused or cancelled? We review your decision record and, where appropriate, assist with merits review at the Administrative Review Tribunal (ART).",
-        "examples": ["Visa refusals", "Visa cancellations", "ART merits review", "Decision-record review"]
+        "examples": [
+          "Visa refusals",
+          "Visa cancellations",
+          "ART merits review",
+          "Decision-record review"
+        ]
       },
       {
         "id": "citizenship",
         "name": "Citizenship & Permanent Residency",
         "summary": "Pathways to permanent residency and Australian citizenship by conferral, including residency-requirement checks and document preparation.",
-        "examples": ["PR pathways", "Citizenship by conferral", "Residency requirement checks"]
+        "examples": [
+          "PR pathways",
+          "Citizenship by conferral",
+          "Residency requirement checks"
+        ]
       }
     ],
     "whyRegistered": {
@@ -160,17 +225,45 @@
       "eyebrow": "How it works",
       "title": "A clear, four-step process",
       "steps": [
-        { "number": "01", "title": "Free assessment", "body": "Tell us about your situation. We give you an honest, no-obligation view of your eligibility and the visa options that fit." },
-        { "number": "02", "title": "Strategy & quote", "body": "We recommend a pathway and provide a transparent, fixed-fee quote for our professional services before any work begins." },
-        { "number": "03", "title": "Preparation", "body": "We prepare a decision-ready application — documents, forms and submissions — and keep you informed at every stage." },
-        { "number": "04", "title": "Lodgement & liaison", "body": "We lodge your application and act as your authorised representative in dealings with the Department of Home Affairs." }
+        {
+          "number": "01",
+          "title": "Free assessment",
+          "body": "Tell us about your situation. We give you an honest, no-obligation view of your eligibility and the visa options that fit."
+        },
+        {
+          "number": "02",
+          "title": "Strategy & quote",
+          "body": "We recommend a pathway and provide a transparent, fixed-fee quote for our professional services before any work begins."
+        },
+        {
+          "number": "03",
+          "title": "Preparation",
+          "body": "We prepare a decision-ready application — documents, forms and submissions — and keep you informed at every stage."
+        },
+        {
+          "number": "04",
+          "title": "Lodgement & liaison",
+          "body": "We lodge your application and act as your authorised representative in dealings with the Department of Home Affairs."
+        }
       ]
     },
     "stats": [
-      { "value": "8", "label": "Major visa pathways supported" },
-      { "value": "100%", "label": "Fixed-quote, transparent fees" },
-      { "value": "24h", "label": "Typical response to enquiries" },
-      { "value": "1:1", "label": "Direct work with a registered agent" }
+      {
+        "value": "7",
+        "label": "Major visa pathways covered"
+      },
+      {
+        "value": "Fixed-fee",
+        "label": "Transparent quotes, agreed up front"
+      },
+      {
+        "value": "24h",
+        "label": "Typical reply to new enquiries"
+      },
+      {
+        "value": "1:1",
+        "label": "You work directly with a registered agent"
+      }
     ],
     "faq": [
       {
@@ -206,16 +299,56 @@
         "answer": "No. We assist clients onshore and offshore. Many Australian visa applications are lodged from outside Australia, and we can work with you wherever you are located."
       }
     ],
-    "testimonials": [
-      { "quote": "Clear, honest advice from the first call. They told me exactly what was realistic and prepared everything properly.", "name": "Priya S.", "role": "Skilled visa client" },
-      { "quote": "The partner visa evidence felt overwhelming until they walked us through it step by step. Worth every cent.", "name": "Daniel & Mei", "role": "Partner visa clients" },
-      { "quote": "After a refusal I thought it was over. They reviewed my case calmly and explained my review options.", "name": "Ahmed R.", "role": "Appeals client" }
-    ],
+    "commitments": {
+      "eyebrow": "Our commitments to you",
+      "title": "What you can expect — in writing",
+      "subtitle": "As a registered migration agent we are bound by the Migration Agents Code of Conduct. These aren't marketing slogans; they're professional obligations we owe you by law.",
+      "items": [
+        {
+          "title": "Honest advice about your prospects",
+          "body": "We give you a realistic view of your chances before you commit — even when it isn't the answer you were hoping for."
+        },
+        {
+          "title": "A written agreement and fixed quote",
+          "body": "You receive a written services agreement setting out the scope of work and a fixed professional fee before any work begins."
+        },
+        {
+          "title": "Client money handled responsibly",
+          "body": "Where you pay in advance, your funds are handled in line with the Code of Conduct's requirements for client money."
+        },
+        {
+          "title": "Clear updates at every stage",
+          "body": "We keep you informed of progress and tell you promptly, in writing, about the outcome of your application."
+        },
+        {
+          "title": "Your privacy protected",
+          "body": "Your personal information is kept confidential and used only for the purpose of your matter."
+        },
+        {
+          "title": "Independent, conflict-free advice",
+          "body": "We act in your best interests and disclose any interest that could affect the advice we give you."
+        }
+      ],
+      "footnote": "These obligations are set out in the Migration Agents Code of Conduct, which every registered agent must follow."
+    },
+    "verify": {
+      "eyebrow": "Verify before you trust",
+      "title": "Check our registration on the official government register",
+      "subtitle": "Immigration is a field where unregistered operators put applicants at risk. Before you engage anyone — including us — confirm they are a registered migration agent on the Australian Government's official public register.",
+      "buttonLabel": "View our entry on the MARA register",
+      "note": "Opens our official registration record on the Australian Government's MARA register."
+    },
     "ctaBand": {
       "title": "Not sure which visa is right for you?",
       "subtitle": "Start with a free, no-obligation assessment. We'll give you an honest view of your options — with no pressure and no jargon.",
-      "primaryCta": { "label": "Get your free assessment", "href": "/free-assessment" },
-      "secondaryCta": { "label": "Contact us", "href": "/contact" }
+      "primaryCta": {
+        "label": "Get your free assessment",
+        "href": "/free-assessment"
+      },
+      "secondaryCta": {
+        "label": "Contact us",
+        "href": "/contact"
+      }
     }
   },
   "servicesPage": {
@@ -310,7 +443,12 @@
   "assessment": {
     "title": "Free Visa Assessment",
     "intro": "Tell us a little about your situation and goals. A registered migration agent will review your details and come back to you with an honest, no-obligation view of your options. This is a request for an assessment — not a visa application, and not a government form.",
-    "steps": ["About you", "Your situation", "Your goal", "Review"],
+    "steps": [
+      "About you",
+      "Your situation",
+      "Your goal",
+      "Review"
+    ],
     "fields": {
       "visaInterest": [
         "Skilled / points-tested visa",
@@ -328,7 +466,10 @@
   "thankYou": {
     "title": "Thank you — your request has been received.",
     "message": "A registered migration agent will review your details and contact you, usually within 24 business hours, to discuss your options.",
-    "cta": { "text": "Return to homepage", "href": "/" }
+    "cta": {
+      "text": "Return to homepage",
+      "href": "/"
+    }
   },
   "about": {
     "title": "About iVisaPortal",
@@ -381,77 +522,194 @@
       "title": "Disclaimer",
       "metaDescription": "iVisaPortal disclaimer — a private Australian migration consultancy operated by ZA Logistics Inc, not affiliated with the Australian Government.",
       "content": [
-        { "heading": "Not a government website", "body": "iVisaPortal is a private migration consultancy operated by ZA Logistics Inc. We are not the Australian Government and are not affiliated with, endorsed by, or connected to the Department of Home Affairs or the Office of the Migration Agents Registration Authority (OMARA). This website is not a government website." },
-        { "heading": "Registered migration agent", "body": "Immigration assistance offered through this website is provided by a registered migration agent authorised under the Migration Act 1958. Migration Agents Registration Number (MARN): 2318249. You can verify this registration on the official MARA register of migration agents." },
-        { "heading": "Optional, independent service", "body": "Engaging a migration agent is optional. You are free to prepare and lodge any Australian visa application directly with the Department of Home Affairs yourself, usually through ImmiAccount, or to engage any registered migration agent of your choice." },
-        { "heading": "Fees", "body": "Our professional service fees are separate from, and additional to, any Australian Government visa application charges (VACs). Government charges are payable to the Department of Home Affairs and are set by the Australian Government." },
-        { "heading": "No guarantee of outcome", "body": "No migration agent can guarantee the outcome of a visa application. All visa decisions are made solely by the Department of Home Affairs in accordance with the Migration Act 1958 and Migration Regulations 1994. Information on this website is general in nature and does not constitute personal migration advice until a written services agreement is in place." }
+        {
+          "heading": "Not a government website",
+          "body": "iVisaPortal is a private migration consultancy operated by ZA Logistics Inc. We are not the Australian Government and are not affiliated with, endorsed by, or connected to the Department of Home Affairs or the Office of the Migration Agents Registration Authority (OMARA). This website is not a government website."
+        },
+        {
+          "heading": "Registered migration agent",
+          "body": "Immigration assistance offered through this website is provided by Chanpreet Singh, a registered migration agent authorised under the Migration Act 1958. Migration Agents Registration Number (MARN): 2318249. You can verify this registration directly on the official MARA register of migration agents."
+        },
+        {
+          "heading": "Optional, independent service",
+          "body": "Engaging a migration agent is optional. You are free to prepare and lodge any Australian visa application directly with the Department of Home Affairs yourself, usually through ImmiAccount, or to engage any registered migration agent of your choice."
+        },
+        {
+          "heading": "Fees",
+          "body": "Our professional service fees are separate from, and additional to, any Australian Government visa application charges (VACs). Government charges are payable to the Department of Home Affairs and are set by the Australian Government."
+        },
+        {
+          "heading": "No guarantee of outcome",
+          "body": "No migration agent can guarantee the outcome of a visa application. All visa decisions are made solely by the Department of Home Affairs in accordance with the Migration Act 1958 and Migration Regulations 1994. Information on this website is general in nature and does not constitute personal migration advice until a written services agreement is in place."
+        },
+        {
+          "heading": "Consumer protection and complaints",
+          "body": "As a registered migration agent we are bound by the Migration Agents Code of Conduct, and you are protected by it. Before we begin work you will receive a written services agreement and the Department's Consumer Guide, which explains your rights. If you are ever unhappy with our service, you may raise a complaint with us directly, and you also have the right to complain to the Office of the Migration Agents Registration Authority (OMARA), the government body that regulates migration agents."
+        }
       ]
     },
     "legalNotice": {
       "title": "Legal Notice",
       "metaDescription": "Legal notice and company information for iVisaPortal, operated by ZA Logistics Inc.",
       "content": [
-        { "heading": "Operating entity", "body": "This website (iVisaPortal) is operated by ZA Logistics Inc, a company registered in the United States, with a registered office at 2601 Woodland Park Drive, Apt 8209, Houston, TX 77077, USA." },
-        { "heading": "Registered migration agent", "body": "Immigration assistance is provided by a registered migration agent. Migration Agents Registration Number (MARN): 2318249. The agent is registered with, and regulated by, the Office of the Migration Agents Registration Authority (OMARA), part of the Australian Department of Home Affairs, and is bound by the Migration Agents Code of Conduct." },
-        { "heading": "No government affiliation", "body": "ZA Logistics Inc and iVisaPortal are not affiliated with, endorsed by, or connected to the Australian Government, the Department of Home Affairs, or OMARA. We do not act for or on behalf of any government." },
-        { "heading": "Contact", "body": "For any enquiry, contact us at support@ivisaportal.com." }
+        {
+          "heading": "Operating entity",
+          "body": "This website (iVisaPortal) is operated by ZA Logistics Inc, a company registered in the United States, with a registered office at 2601 Woodland Park Drive, Apt 8209, Houston, TX 77077, USA."
+        },
+        {
+          "heading": "Registered migration agent",
+          "body": "Immigration assistance offered through this website is provided by Chanpreet Singh, a registered migration agent (Migration Agents Registration Number (MARN): 2318249), registered since 29 September 2025. The agent is registered with, and regulated by, the Office of the Migration Agents Registration Authority (OMARA), part of the Australian Department of Home Affairs, and is bound by the Migration Agents Code of Conduct. You can verify this registration directly on the official MARA register of migration agents."
+        },
+        {
+          "heading": "No government affiliation",
+          "body": "ZA Logistics Inc and iVisaPortal are not affiliated with, endorsed by, or connected to the Australian Government, the Department of Home Affairs, or OMARA. We do not act for or on behalf of any government."
+        },
+        {
+          "heading": "Contact",
+          "body": "For any enquiry, contact us at support@ivisaportal.com or +1 413 241 9088. Registered office: ZA Logistics Inc, 2601 Woodland Park Drive, Apt 8209, Houston, TX 77077, USA."
+        }
       ]
     },
     "privacyPolicy": {
       "title": "Privacy Policy",
       "metaDescription": "How iVisaPortal (ZA Logistics Inc) collects, uses, and protects your personal information.",
       "content": [
-        { "heading": "Introduction", "body": "This Privacy Policy explains how ZA Logistics Inc (\"we\", \"us\"), operating as iVisaPortal, collects, uses, discloses and protects your personal information when you use this website and our services." },
-        { "heading": "Information we collect", "body": "We collect information you provide directly, such as your name, contact details, nationality, and details about your circumstances and visa goals submitted through our assessment or contact forms. We also collect limited technical information such as your IP address, browser type, and pages visited, through cookies and similar technologies." },
-        { "heading": "How we use your information", "body": "We use your information to respond to your enquiries, assess your eligibility, provide immigration assistance where you engage us, communicate with you, comply with our legal and regulatory obligations as a registered migration agent, and improve our website and services." },
-        { "heading": "Disclosure", "body": "Where you engage us and authorise us to act, we may disclose relevant information to the Australian Department of Home Affairs and related tribunals as part of providing immigration assistance. We may also use trusted service providers (such as hosting and email providers) who process data on our behalf. We do not sell your personal information." },
-        { "heading": "Confidentiality", "body": "As a registered migration agent we are bound by strict confidentiality obligations under the Migration Agents Code of Conduct in respect of client information." },
-        { "heading": "Data retention and security", "body": "We retain personal information only as long as necessary for the purposes described or as required by law, and we take reasonable technical and organisational measures to protect it." },
-        { "heading": "Your rights", "body": "Subject to applicable law, you may request access to, or correction of, the personal information we hold about you by contacting support@ivisaportal.com. Depending on your location, you may have additional rights under laws such as the EU/UK GDPR, the California Consumer Privacy Act (CCPA), or the Australian Privacy Act 1988." },
-        { "heading": "Contact", "body": "For any privacy enquiry, contact us at support@ivisaportal.com." }
+        {
+          "heading": "Introduction",
+          "body": "This Privacy Policy explains how ZA Logistics Inc (\"we\", \"us\"), operating as iVisaPortal, collects, uses, discloses and protects your personal information when you use this website and our services."
+        },
+        {
+          "heading": "Information we collect",
+          "body": "We collect information you provide directly, such as your name, contact details, nationality, and details about your circumstances and visa goals submitted through our assessment or contact forms. We also collect limited technical information such as your IP address, browser type, and pages visited, through cookies and similar technologies."
+        },
+        {
+          "heading": "How we use your information",
+          "body": "We use your information to respond to your enquiries, assess your eligibility, provide immigration assistance where you engage us, communicate with you, comply with our legal and regulatory obligations as a registered migration agent, and improve our website and services."
+        },
+        {
+          "heading": "Disclosure",
+          "body": "Where you engage us and authorise us to act, we may disclose relevant information to the Australian Department of Home Affairs and related tribunals as part of providing immigration assistance. We may also use trusted service providers (such as hosting and email providers) who process data on our behalf. We do not sell your personal information."
+        },
+        {
+          "heading": "Confidentiality",
+          "body": "As a registered migration agent we are bound by strict confidentiality obligations under the Migration Agents Code of Conduct in respect of client information."
+        },
+        {
+          "heading": "Data retention and security",
+          "body": "We retain personal information only as long as necessary for the purposes described or as required by law, and we take reasonable technical and organisational measures to protect it."
+        },
+        {
+          "heading": "Your rights",
+          "body": "Subject to applicable law, you may request access to, or correction of, the personal information we hold about you by contacting support@ivisaportal.com. Depending on your location, you may have additional rights under laws such as the EU/UK GDPR, the California Consumer Privacy Act (CCPA), or the Australian Privacy Act 1988."
+        },
+        {
+          "heading": "International users",
+          "body": "We assist clients in Australia and around the world, and our company is based in the United States. By submitting your information you understand it may be processed in the United States and other countries. Where local laws such as the EU/UK GDPR or the California Consumer Privacy Act apply to you, we honour the rights those laws give you, including the right to access, correct or delete your personal information. To exercise any right, contact us at support@ivisaportal.com."
+        },
+        {
+          "heading": "Contact",
+          "body": "For any privacy enquiry, contact us at support@ivisaportal.com."
+        }
       ]
     },
     "termsAndConditions": {
       "title": "Terms & Conditions",
       "metaDescription": "The terms governing your use of the iVisaPortal website and services, operated by ZA Logistics Inc.",
       "content": [
-        { "heading": "Acceptance of terms", "body": "By accessing or using this website, you agree to these Terms & Conditions. If you do not agree, please do not use the website." },
-        { "heading": "Nature of our service", "body": "iVisaPortal provides professional immigration assistance for Australian visas through a registered migration agent. We are a private consultancy and are not the Australian Government, nor are we affiliated with the Department of Home Affairs or OMARA." },
-        { "heading": "General information only", "body": "Content on this website is general information and does not constitute personal migration advice. Personal advice is provided only after a written services agreement is in place. You should not rely on general website content as a substitute for tailored advice." },
-        { "heading": "Engagement and fees", "body": "If you choose to engage us, we will provide a written services agreement, a Consumer Guide, and a fixed-fee quote for our professional services before any work begins. Our fees are separate from Australian Government visa application charges." },
-        { "heading": "No guarantee of outcome", "body": "We do not and cannot guarantee any visa outcome. All decisions are made by the Department of Home Affairs under the Migration Act 1958 and Migration Regulations 1994." },
-        { "heading": "Limitation of liability", "body": "To the maximum extent permitted by law, ZA Logistics Inc is not liable for any indirect or consequential loss arising from use of this website. Nothing in these terms excludes any rights you may have under applicable consumer law or our obligations as a registered migration agent." },
-        { "heading": "Governing law", "body": "These terms are governed by the laws of the State of Texas, USA, in respect of your use of this website, without affecting any non-excludable obligations that apply to the provision of immigration assistance under Australian law." }
+        {
+          "heading": "Acceptance of terms",
+          "body": "By accessing or using this website, you agree to these Terms & Conditions. If you do not agree, please do not use the website."
+        },
+        {
+          "heading": "Nature of our service",
+          "body": "iVisaPortal provides professional immigration assistance for Australian visas through a registered migration agent. We are a private consultancy and are not the Australian Government, nor are we affiliated with the Department of Home Affairs or OMARA."
+        },
+        {
+          "heading": "General information only",
+          "body": "Content on this website is general information and does not constitute personal migration advice. Personal advice is provided only after a written services agreement is in place. You should not rely on general website content as a substitute for tailored advice."
+        },
+        {
+          "heading": "Engagement and fees",
+          "body": "If you choose to engage us, we will provide a written services agreement, a Consumer Guide, and a fixed-fee quote for our professional services before any work begins. Our fees are separate from Australian Government visa application charges."
+        },
+        {
+          "heading": "No guarantee of outcome",
+          "body": "We do not and cannot guarantee any visa outcome. All decisions are made by the Department of Home Affairs under the Migration Act 1958 and Migration Regulations 1994."
+        },
+        {
+          "heading": "Limitation of liability",
+          "body": "To the maximum extent permitted by law, ZA Logistics Inc is not liable for any indirect or consequential loss arising from use of this website. Nothing in these terms excludes any rights you may have under applicable consumer law or our obligations as a registered migration agent."
+        },
+        {
+          "heading": "Complaints",
+          "body": "If you are dissatisfied with our service, please contact us first so we can try to resolve the matter. As clients of a registered migration agent, you also have the right to make a complaint to the Office of the Migration Agents Registration Authority (OMARA). Details are provided in the Consumer Guide we give you before any work begins."
+        },
+        {
+          "heading": "Governing law",
+          "body": "These terms are governed by the laws of the State of Texas, USA, in respect of your use of this website, without affecting any non-excludable obligations that apply to the provision of immigration assistance under Australian law."
+        }
       ]
     },
     "refundPolicy": {
       "title": "Refund Policy",
       "metaDescription": "iVisaPortal (ZA Logistics Inc) refund policy for professional migration services.",
       "content": [
-        { "heading": "Professional service fees", "body": "Our fees are professional service fees for immigration assistance. The specific fees, scope, payment schedule and any refund arrangements for your matter are set out in the written services agreement you receive before any work begins." },
-        { "heading": "Government charges", "body": "Australian Government visa application charges (VACs) are paid to the Department of Home Affairs and are governed by the Australian Government's rules. The Department, not iVisaPortal, determines whether any government charge is refundable. We do not control or refund government charges." },
-        { "heading": "Work already performed", "body": "Where professional work has already been performed under a services agreement, fees for that work are generally non-refundable, as set out in your agreement. We always set out fees and refund terms clearly in writing before you commit." },
-        { "heading": "How to request a refund", "body": "If you believe you are entitled to a refund under your services agreement, contact us at support@ivisaportal.com and we will deal with your request in good faith and in accordance with your agreement and our obligations as a registered migration agent." }
+        {
+          "heading": "Professional service fees",
+          "body": "Our fees are professional service fees for immigration assistance. The specific fees, scope, payment schedule and any refund arrangements for your matter are set out in the written services agreement you receive before any work begins."
+        },
+        {
+          "heading": "Government charges",
+          "body": "Australian Government visa application charges (VACs) are paid to the Department of Home Affairs and are governed by the Australian Government's rules. The Department, not iVisaPortal, determines whether any government charge is refundable. We do not control or refund government charges."
+        },
+        {
+          "heading": "Work already performed",
+          "body": "Where professional work has already been performed under a services agreement, fees for that work are generally non-refundable, as set out in your agreement. We always set out fees and refund terms clearly in writing before you commit."
+        },
+        {
+          "heading": "How to request a refund",
+          "body": "If you believe you are entitled to a refund under your services agreement, contact us at support@ivisaportal.com and we will deal with your request in good faith and in accordance with your agreement and our obligations as a registered migration agent."
+        }
       ]
     },
     "cookiePolicy": {
       "title": "Cookie Policy",
       "metaDescription": "How iVisaPortal uses cookies and similar technologies.",
       "content": [
-        { "heading": "What cookies are", "body": "Cookies are small text files stored on your device that help websites function and understand how they are used." },
-        { "heading": "How we use cookies", "body": "We use essential cookies to operate the website, and, with your consent where required, analytics cookies to understand and improve how the website is used." },
-        { "heading": "Managing cookies", "body": "You can accept or decline non-essential cookies using our cookie banner, and you can control cookies through your browser settings. Disabling some cookies may affect how the website works." },
-        { "heading": "Contact", "body": "For questions about our use of cookies, contact support@ivisaportal.com." }
+        {
+          "heading": "What cookies are",
+          "body": "Cookies are small text files stored on your device that help websites function and understand how they are used."
+        },
+        {
+          "heading": "How we use cookies",
+          "body": "We use essential cookies to operate the website, and, with your consent where required, analytics cookies to understand and improve how the website is used."
+        },
+        {
+          "heading": "Managing cookies",
+          "body": "You can accept or decline non-essential cookies using our cookie banner, and you can control cookies through your browser settings. Disabling some cookies may affect how the website works."
+        },
+        {
+          "heading": "Contact",
+          "body": "For questions about our use of cookies, contact support@ivisaportal.com."
+        }
       ]
     },
     "accessibility": {
       "title": "Accessibility",
       "metaDescription": "iVisaPortal's commitment to an accessible website experience.",
       "content": [
-        { "heading": "Our commitment", "body": "We want iVisaPortal to be usable by as many people as possible and aim to follow recognised accessibility best practices, including the Web Content Accessibility Guidelines (WCAG) where reasonably practicable." },
-        { "heading": "Ongoing improvement", "body": "We continually work to improve the accessibility of our website. If you encounter any barrier or difficulty using this site, please let us know so we can help and improve." },
-        { "heading": "Contact", "body": "To request assistance or report an accessibility issue, contact us at support@ivisaportal.com." }
+        {
+          "heading": "Our commitment",
+          "body": "We want iVisaPortal to be usable by as many people as possible and aim to follow recognised accessibility best practices, including the Web Content Accessibility Guidelines (WCAG) where reasonably practicable."
+        },
+        {
+          "heading": "Ongoing improvement",
+          "body": "We continually work to improve the accessibility of our website. If you encounter any barrier or difficulty using this site, please let us know so we can help and improve."
+        },
+        {
+          "heading": "Contact",
+          "body": "To request assistance or report an accessibility issue, contact us at support@ivisaportal.com."
+        }
       ]
     }
   },

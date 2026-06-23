@@ -67,12 +67,12 @@ export default function AboutPage() {
                 </div>
               </div>
               <a
-                href={content.official.maraRegisterUrl}
+                href={content.official.maraAgentUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 mt-5 text-sm font-semibold text-ocean-700 hover:text-ocean-800"
               >
-                Verify this registration on the public MARA register <ExternalLink className="w-3.5 h-3.5" />
+                Verify this registration on the official MARA register <ExternalLink className="w-3.5 h-3.5" />
               </a>
             </div>
 

@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import content from '@/data/CONTENT.json'
-import { AlertTriangle, ExternalLink, Mail, MapPin, Clock, Send, Phone } from 'lucide-react'
+import { AlertTriangle, ExternalLink, Mail, MapPin, Clock, Send, Phone, ShieldCheck } from 'lucide-react'
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -205,8 +205,21 @@ export default function ContactPage() {
               <div className="bg-ocean-50 border border-ocean-200 rounded-3xl p-6">
                 <h3 className="font-semibold text-ink mb-2">Operating entity</h3>
                 <p className="text-sm text-ink/75 leading-relaxed">
-                  iVisaPortal is a brand of <strong>{content.site.legalEntity}</strong>, a private limited liability company registered in the United States. We are not a government agency and we are not authorised to act on behalf of any government.
+                  iVisaPortal is a brand of <strong>{content.site.legalEntity}</strong>, a private company registered in the United States. We are not a government agency and we are not authorised to act on behalf of any government.
                 </p>
+              </div>
+
+              <div className="bg-emerald-50 border border-emerald-200 rounded-3xl p-6">
+                <div className="flex items-center gap-2 mb-2">
+                  <ShieldCheck className="w-5 h-5 text-emerald-600" />
+                  <h3 className="font-semibold text-ink">Registered migration agent</h3>
+                </div>
+                <p className="text-sm text-ink/75 leading-relaxed mb-3">
+                  Immigration assistance is provided by <strong>{content.agent.name}</strong> ({content.agent.marnNote} (MARN): <strong>{content.agent.marn}</strong>), registered with OMARA.
+                </p>
+                <a href={content.official.maraAgentUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 text-sm font-semibold text-ocean-700 hover:text-ocean-800 underline">
+                  {content.official.maraAgentLabel} <ExternalLink className="w-3.5 h-3.5" />
+                </a>
               </div>
             </div>
           </div>

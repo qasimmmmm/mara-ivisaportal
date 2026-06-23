@@ -50,8 +50,8 @@ export default function Footer() {
                 <a href={official.codeOfConductUrl} target="_blank" rel="noopener noreferrer" className="underline font-semibold hover:text-amber-700 inline-flex items-center gap-1">
                   Code of Conduct <ExternalLink className="w-3 h-3" aria-hidden="true" />
                 </a>
-                <a href={official.maraRegisterUrl} target="_blank" rel="noopener noreferrer" className="underline font-semibold hover:text-amber-700 inline-flex items-center gap-1">
-                  Verify on MARA register <ExternalLink className="w-3 h-3" aria-hidden="true" />
+                <a href={official.maraAgentUrl} target="_blank" rel="noopener noreferrer" className="underline font-semibold hover:text-amber-700 inline-flex items-center gap-1">
+                  Verify our registration on the MARA register <ExternalLink className="w-3 h-3" aria-hidden="true" />
                 </a>
               </p>
             </div>
@@ -76,8 +76,17 @@ export default function Footer() {
               migration agent.
             </p>
             <p className="text-sand-100/45 text-xs leading-relaxed">
-              {agent.marnNote} (MARN): {agent.marn}
+              Agent: {agent.name} · {agent.marnNote} (MARN): {agent.marn}
             </p>
+            <a
+              href={official.maraAgentUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-400 hover:text-emerald-300"
+            >
+              <span className="inline-flex items-center gap-1"><span className="w-1.5 h-1.5 rounded-full bg-emerald-400" /> Verify on the MARA register</span>
+              <ExternalLink className="w-3 h-3" aria-hidden="true" />
+            </a>
             <p className="text-sand-100/40 text-xs leading-relaxed">
               A private service of {site.legalEntity}. Not a government website.
             </p>

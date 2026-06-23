@@ -15,7 +15,7 @@ A professional, Google Ads–compliant Next.js website for a **registered migrat
 - **Registered migration agent:** Chanpreet Singh
 - **MARN (Migration Agents Registration Number):** 2318249 — *Registered*, commenced 29 September 2025
 - **Regulator:** Office of the Migration Agents Registration Authority (OMARA), part of the Australian Department of Home Affairs
-- **Public register entry:** verifiable on the MARA Register of Migration Agents
+- **Public register entry (direct verification):** https://portal.mara.gov.au/search-the-register-of-migration-agents/register-of-migration-agent-details/?ContactID=2441f2f6-b02b-ee11-9966-6045bd3df43a — linked throughout the site (hero, verification section, About, Contact, footer) so prospects can confirm the agent before engaging.
 
 ## Tech stack
 

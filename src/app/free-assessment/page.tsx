@@ -343,27 +343,28 @@ export default function FreeAssessmentPage() {
             </div>
 
             {/* Registration disclosure */}
-            <div className="bg-ochre-50 border-2 border-ochre-300 rounded-3xl p-6">
+            <div className="bg-emerald-50 border-2 border-emerald-200 rounded-3xl p-6">
               <div className="flex items-center gap-2 mb-3">
-                <AlertTriangle className="w-5 h-5 text-ochre-600 flex-shrink-0" />
+                <ShieldCheck className="w-5 h-5 text-emerald-600 flex-shrink-0" />
                 <h3 className="font-semibold text-ink">Verify our registration</h3>
               </div>
               <p className="text-sm text-ink/75 leading-relaxed mb-3">
-                Immigration assistance is provided by a registered migration agent.{' '}
-                <strong>{content.agent.marnNote} (MARN): {content.agent.marn}</strong>.
+                Immigration assistance is provided by <strong>{content.agent.name}</strong>, a registered
+                migration agent ({content.agent.marnNote} (MARN): <strong>{content.agent.marn}</strong>).
               </p>
-              <a href={content.official.maraRegisterUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sm font-semibold text-ocean-700 underline hover:text-ocean-800">
-                {content.official.maraRegisterLabel} <ExternalLink className="w-3.5 h-3.5" />
+              <a href={content.official.maraAgentUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-sm font-semibold text-ocean-700 underline hover:text-ocean-800">
+                {content.official.maraAgentLabel} <ExternalLink className="w-3.5 h-3.5" />
               </a>
             </div>
 
             <div className="bg-ocean-700 text-white rounded-3xl p-6">
               <div className="flex items-center gap-2 mb-2">
-                <Lock className="w-4 h-4 text-ochre-300" />
-                <h3 className="font-semibold">Prefer to email?</h3>
+                <Lock className="w-4 h-4 text-emerald-300" />
+                <h3 className="font-semibold">Prefer to reach us directly?</h3>
               </div>
-              <p className="text-sm text-white/70 mb-3">Reach our team directly any time.</p>
-              <a href={`mailto:${content.contact.email}`} className="text-ochre-200 font-medium hover:underline break-all">{content.contact.email}</a>
+              <p className="text-sm text-white/70 mb-3">Our team is happy to help by email or phone.</p>
+              <a href={`mailto:${content.contact.email}`} className="block text-emerald-200 font-medium hover:underline break-all">{content.contact.email}</a>
+              <a href={`tel:${content.contact.phoneHref}`} className="block text-emerald-200 font-medium hover:underline mt-1">{content.contact.phone}</a>
             </div>
           </div>
         </div>
