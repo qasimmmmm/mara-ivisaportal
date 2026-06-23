@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #0f172a;
+  background-color: #f8fafc;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #0f172a;
+}
+
+@layer components {
+  .container-custom {
+    @apply max-w-7xl mx-auto px-5 sm:px-6 lg:px-8;
+  }
+
+  /* Primary — blue-600, the iVisaPortal brand colour */
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 text-base font-semibold text-white bg-ocean-600 rounded-xl shadow-sm hover:bg-ocean-700 transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-ocean-500 focus-visible:ring-offset-2;
+  }
+
+  /* Accent — emerald green */
+  .btn-accent {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 text-base font-semibold text-white bg-emerald-600 rounded-xl shadow-sm hover:bg-emerald-700 transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 px-6 py-3 text-base font-semibold text-ink bg-white rounded-xl border border-sand-200 hover:bg-sand-50 hover:border-sand-300 transition-colors duration-200;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-bold tracking-[0.16em] text-ocean-600 uppercase;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-[2.5rem] font-bold text-ink leading-[1.08] tracking-tight;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl border border-sand-200 shadow-card p-6 md:p-8 transition-all duration-300 hover:shadow-float;
+  }
+
+  /* Subtle cool grid texture — clean, professional (replaces warm contour device) */
+  .topo {
+    background-image:
+      linear-gradient(rgba(15,23,42,0.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(15,23,42,0.025) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+}
+
+@layer utilities {
+  .animate-delay-100 { animation-delay: 100ms; }
+  .animate-delay-200 { animation-delay: 200ms; }
+  .animate-delay-300 { animation-delay: 300ms; }
+  .animate-delay-400 { animation-delay: 400ms; }
+  .text-balance { text-wrap: balance; }
+}
+
+/* Form controls */
+input, select, textarea {
+  @apply w-full px-4 py-3 bg-white border border-sand-200 rounded-xl text-ink placeholder:text-sand-400 focus:ring-2 focus:ring-ocean-500 focus:border-ocean-500 outline-none transition-all duration-200;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  @apply w-auto accent-ocean-600;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

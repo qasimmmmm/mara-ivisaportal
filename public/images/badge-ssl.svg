@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 190 44" fill="none" role="img" aria-label="SSL Encrypted, 256-bit secure connection">
+  <rect x="13" y="18" width="18" height="13" rx="2.5" fill="none" stroke="#2563eb" stroke-width="2"/>
+  <path d="M17 18 v-3 a5 5 0 0 1 10 0 v3" fill="none" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="22" cy="24" r="1.8" fill="#16a34a"/>
+  <text x="44" y="22" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" fill="#0f172a">SSL Encrypted</text>
+  <text x="44" y="35" font-family="Inter,Arial,sans-serif" font-size="9" fill="#64748b">256-bit secure connection</text>
+</svg>
